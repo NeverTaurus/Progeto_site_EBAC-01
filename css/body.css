@@ -1,0 +1,72 @@
+
+p{
+    font-family: 'Ysabeau Office', sans-serif;
+}
+section .container{
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    
+}
+#monstros, #sobre, #CONTATOS {
+    padding: 50px;
+}
+
+
+section h2 {
+    margin-bottom: 20px;
+}
+section p{
+    margin-bottom: 15px;
+}
+.foto-frente{
+    margin-right: 35px;
+}
+.mosntro{
+    height: 400px;
+}
+.social-links img{
+    height: 30px;
+}
+.social-links li{
+    padding: 10px;
+    display: inline;
+}
+.social-links li a {
+    text-decoration: none;
+}
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 328px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #324066;
+}
+#CONTATOS {
+    background-color: white;
+}
+
+section .contato img{
+    height: 300px;
+
+}
+input:focus, textarea:focus{
+    outline-color: #231861;
+}
+/*section .contato {
+    display: inline;
+}*/

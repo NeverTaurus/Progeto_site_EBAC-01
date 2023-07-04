@@ -1,0 +1,40 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.cabeça {
+    background-image: url(../imagens/fundo-cabeçario.jpg);
+    
+    color: #ecf0f1;
+    background-size: cover;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.cabeça h1{
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: #000;
+}
+header .cabeça li a {
+    color: #ecf0f1;
+    padding: auto;
+    text-decoration: none;
+    background-color: #1011112d;
+    
+}
+.cabeça a:hover {
+    text-decoration: underline;
+}
+header,
+section h2,
+form button{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
