@@ -20,7 +20,7 @@
     -webkit-text-stroke-width: 1px; 
     -webkit-text-stroke-color: #000;
 }
-header .cabeça li a {
+header .cabeça li a{
     color: #ecf0f1;
     padding: auto;
     text-decoration: none;
@@ -32,7 +32,7 @@ header .cabeça li a {
 }
 header,
 section h2,
-form button{
+form button, #home{
     font-family: 'Oswald', sans-serif;
 }
 
